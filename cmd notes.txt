@@ -11,7 +11,9 @@ serve -s build
 
 server:
 config
-    "dev" : "nodemon server.js"         put this in scripts on package.json 
+    "start" : "nodemon server.js"         put this in scripts on package.json 
+
+npm run start
 
 git:
 
