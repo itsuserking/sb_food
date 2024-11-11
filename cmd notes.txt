@@ -1,0 +1,40 @@
+client:
+npm install
+
+npm run --> to list the run name
+
+npm run start
+
+npm run build
+
+serve -s build
+
+server:
+config
+    "dev" : "nodemon server.js"         put this in scripts on package.json 
+
+git:
+
+
+
+To add file{
+
+git add *
+
+git commit -m "commit message"
+
+git push
+
+or 
+
+git push origin main
+
+}
+
+git init -b main
+
+git remote add origin git_url
+
+git remote -v                   -->to verify url
+
+git push origin main
