@@ -15,7 +15,7 @@
     border-radius: 0.6rem;
 }
 .profileCard:hover{
-    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    box-shadow: rgba(255, 255, 127, 0.993) 0px 8px 24px;
 }
 
 .profileCard span{
@@ -28,7 +28,7 @@
 .profileCard span h5{
     font-size: 1rem;
     margin: 0;
-    color: rgb(45, 58, 69);
+    color: rgb(26, 128, 217);
     font-weight: 500;
     
 }
@@ -47,7 +47,7 @@
 
     font-size: 1.5rem;
     margin: 2vh 3vw;
-    color: rgb(84, 109, 130);
+    color: rgb(4, 74, 131);
 
 }
 

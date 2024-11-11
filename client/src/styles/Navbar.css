@@ -1,19 +1,19 @@
 .navbar{
     height: 12vh;
-    background-color: #ffffff;
+    background-color: #f7f012;
     display: flex;
     align-items: center;
     position: fixed;
     top: 0;
     width: 100%;
     z-index: 999;
-    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    box-shadow: rgba(129, 236, 174, 0.2) 0px 8px 24px;
 }
 
 .navbar h3{
 
     margin: 0;
-    color: rgb(54, 147, 194);
+    color: rgb(180, 20, 28);
     font-weight: bold;
     margin-left: 3vw;
     cursor: pointer;
@@ -80,8 +80,8 @@
 
     margin: 0 30px 0 0;
     padding: 0;
-    border: 1px solid rgb(111, 152, 188);
-    color: rgb(122, 160, 194);
+    border: 1px solid rgb(219, 19, 19);
+    color: rgb(185, 3, 3);
     padding: 3px 20px 5px 20px;
     border-radius: 0.5rem;
     font-weight: 600;
@@ -89,8 +89,8 @@
 .nav-content button:hover{
 
     border: 1px solid rgba(109, 138, 163, 0.317);
-    color: rgb(255, 255, 255);
-    background-color: rgba(45, 123, 192, 0.701);
+    color: rgb(214, 203, 203);
+    background-color: rgba(143, 235, 183, 0.701);
 
 }
 
@@ -123,13 +123,13 @@ display: flex;
 }
 .nav-profile p{
     margin: 0;
-    color: rgb(89, 117, 141);
+    color: rgb(211, 1, 1);
 }
 
 .navbar-icons{
 
     font-size: 1.5rem;
-    color: rgb(65, 116, 157);
+    color: rgb(205, 7, 7);
     cursor: pointer;
 }
 
@@ -164,11 +164,11 @@ display: flex;
 
 .navbar-admin ul li{
     list-style: none;
-    color: rgba(240, 248, 255, 0.701);
+    color: rgb(104, 192, 216);
     cursor: pointer;
 }
 
 .navbar-admin ul li:hover{
     
-    color: rgb(235, 240, 245);
+    color: rgb(109, 246, 254);
 }
