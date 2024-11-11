@@ -26,7 +26,7 @@
     width: 180px;
     height: 180px;
     border-radius: 50%;
-    border: 1px solid #c6c4c4;
+    border: 1px solid #fc4c4c;
 
 }
 
@@ -34,6 +34,6 @@
 .home-category-card h5{
 
     padding-top: 5px;
-    color: #4c4747;
+    color: #c39090;
 }
 
