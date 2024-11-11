@@ -15,11 +15,11 @@ app.use(cors());
 
 const PORT = 6001;
 
-mongoose.connect('mongodb://localhost:27017/foodDelivery',{
+mongoose.connect('mongodb+srv://sbfoods:bsssg@cluster0.fnry1.mongodb.net/foodDelivery?retryWrites=true&w=majority&appName=Cluster0',{
     useNewUrlParser: true,
     useUnifiedTopology: true
 }).then(()=>{
-
+    console.log("Connected to MongoDB");
     app.post('/register', async (req, res) => {
         const { username, email, usertype, password , restaurantAddress, restaurantImage} = req.body;
         try {
