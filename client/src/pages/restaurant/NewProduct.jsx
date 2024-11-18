@@ -86,7 +86,7 @@ const NewProduct = () => {
             </div>
 
             <section>
-              <h4>Gender</h4>
+              <h4>Food Type</h4>
               <span>
                 <div className="form-check">
                   <input className="form-check-input" type="radio" name="productCategory" value="Veg" id="flexRadioDefault1" onChange={(e)=> setProductCategory(e.target.value)} />
